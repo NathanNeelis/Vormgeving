@@ -1,0 +1,43 @@
+@font-face {
+font-family: 'VisualBraille';
+font-style: normal;
+font-weight: normal;
+src: local('VisualBraille'), url('visualbraille.woff') format('woff');
+}
+
+#container{
+    max-width:40em;
+    min-width:20em;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: visualbraille;
+    font-size:5em;
+    text-align:center;
+    text-transform: lowercase;
+
+}
+
+h1:hover{
+    font-family:sans-serif;
+    transition-duration: 1;
+    text-transform:none;
+
+}
+
+p{
+    font-family: visualbraille;
+    text-transform: lowercase;
+    font-size:1em;
+    line-height:1.7em;
+
+}
+
+p:hover{
+    font-family:sans-serif;
+    transition-duration: 1;
+    text-transform:none;
+    font-size:1.15em;
+/*    line-height:1.6em;*/
+}
